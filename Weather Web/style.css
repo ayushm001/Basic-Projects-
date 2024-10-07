@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/purple-gradient-luxury-background-design_343694-2556.jpg); 
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+#left{
+    position: absolute;
+    top: 32%;
+    left: 28.9%;
+   background-color:orange;
+    margin: 10px;
+    width: 20%;
+    height: 37%;
+
+    border-radius: 30px;
+}
+
+
+
+
+
+/* inner layers   LEFT */
+#temp {
+    position:relative;
+    left: 8%;
+    top: 7%;
+    font-size: 80px;
+    font-family: Barlow;
+    font-weight: 300;
+}
+
+#date {
+    position:absolute;
+    bottom: 60px;
+    left: 10%;
+    font-family: Barlow;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#day {
+    margin-bottom: 20px;
+    /* color: red; */
+}
+
+
+
+#right {
+    position: absolute;
+    top: 38%;
+    right: 32%;
+    background-color:teal;
+    margin: 10px;
+    width: 18%;
+    height: 26%;
+
+    border-radius: 0px 74px 74px 0px;
+-webkit-border-radius: 0px 74px 74px 0px;
+-moz-border-radius: 0px 74px 74px 0px;
+
+
+}
+
+#city {
+    position:relative;
+    margin-top: 30px;
+    left: 25%;
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+#notes{
+    margin-top: 30px;
+    margin-left: 6px;
+    font-family: Barlow;
+    font-weight: 300;
+    font-size: 18px;
+}
+#n2 {
+    margin-top: 10px;
+}
+
+
+
